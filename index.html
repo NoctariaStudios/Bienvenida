@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noctaria Studios ©</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Fredoka One', cursive;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            overflow-x: hidden;
+            min-height: 200vh; 
+        }
+
+        #background-image {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            transform: translateX(-50%) translateY(-50%);
+            object-fit: cover; 
+            filter: brightness(0.4); 
+            background-image: url('https://preview.redd.it/made-a-pixel-art-of-a-minecraft-boat-on-the-bottom-of-the-v0-vf1j6448tv141.jpg?width=1920&format=pjpg&auto=webp&s=bf524075712809a670f2dd79615d476c606514c4');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 100px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 350px; 
+            margin-bottom: 60px;
+        }
+
+        .text-container {
+            max-width: 1000px;
+            line-height: 1.4;
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 50px;
+            border-radius: 30px;
+        }
+
+        p {
+            margin-bottom: 40px;
+            font-size: 2.2rem; 
+        }
+
+        .precios {
+            list-style: none;
+            margin: 40px 0;
+            font-size: 2.5rem;
+            color: #00ffcc;
+        }
+
+        .precios li {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 4rem !important;
+            margin-top: 40px;
+            color: #000080;
+        }
+
+        .spacer {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="background-image"></div>
+
+    <div class="content">
+        <img src="logo.png" alt="Noctaria Studios Logo" class="logo">
+
+        <div class="text-container">
+            <p>Hola nos presentamos, somos Noctaria Studios nos encargamos de hacer pedidos de eventos mapas etc....</p>
+            
+            <p>Nos hemos fundado en el año 2026 y buscamos hacer proyectos en minecraft para que la communidad de minecraft sea mas viva.</p>
+            
+            <p>Nos puedes contactar en nuestro discord official o en nuestro gmail que estara abajo del todo.</p>
+            
+            <p>Tenemos varios precios :</p>
+            
+            <ul class="precios">
+                <li>45$ Proyecto Complejo</li>
+                <li>25$ Proyecto Mediano</li>
+                <li>10$ Proyecto Pequeño</li>
+                <li>5$ Proyecto Indie</li>
+            </ul>
+
+            <p>Tenemos amplia experiencia en programacion en java.</p>
+            
+            <p style="font-style: italic; color: #1d3e59;">"Haremos tus sueños realidad"</p>
+            
+            <h2>¡Contactanos!</h2>
+        </div>
+
+        <div class="spacer"></div>
+    </div>
+
+</body>
+</html>
