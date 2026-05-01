@@ -80,6 +80,44 @@
             font-size: 4rem !important;
             margin-top: 40px;
             color: #000080;
+            margin-bottom: 30px;
+        }
+
+        /* Estilos para los botones de contacto */
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .btn-contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 30px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-contact:hover {
+            transform: scale(1.1);
+        }
+
+        .btn-gmail {
+            background-color: #ea4335;
+        }
+
+        .btn-discord {
+            background-color: #5865F2;
+        }
+
+        .btn-contact img {
+            width: 30px;
+            margin-right: 15px;
         }
 
         .spacer {
@@ -115,6 +153,18 @@
             <p style="font-style: italic; color: #1d3e59;">"Haremos tus sueños realidad"</p>
             
             <h2>¡Contactanos!</h2>
+
+            <!-- Botones de Contacto -->
+            <div class="contact-buttons">
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=noctariacontact@gmail.com" target="_blank" class="btn-contact btn-gmail">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail">
+                    Gmail
+                </a>
+                <a href="https://discord.gg/KrXTwKCYSZ" target="_blank" class="btn-contact btn-discord">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3670/3670157.png" alt="Discord">
+                    Discord
+                </a>
+            </div>
         </div>
 
         <div class="spacer"></div>
